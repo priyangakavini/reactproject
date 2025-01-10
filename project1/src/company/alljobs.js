@@ -26,9 +26,10 @@ const AllJobs = () => {
                 getjob();
             })
     }
-
+      /* text */ 
     return (
         <div className="container mt-4">
+
             <h2 className="mb-4"> {joblist.length} Job Posted By You... </h2>
                 {
                     joblist.map((job, index) => {
